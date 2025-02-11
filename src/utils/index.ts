@@ -1,7 +1,7 @@
 import { Network } from "../types";
 import axios from "axios"
 import { Field, ParsedSchema } from "../types/Eas.types";
-
+import { networkConfig } from "../config/networks";
 // Function to parse schema string into a structured format
 export const parseSchema = (schema: string): ParsedSchema => {
   console.log("parsing schema", schema);
@@ -43,7 +43,7 @@ export const getSchemaFromUid = async (schemaId: string, network: Network) => {
     let config = {
         method: 'post',
         maxBodyLength: Infinity,
-        url: 'https://sepolia.easscan.org/graphql',
+        url: networkConfig[network].graphqlUrl,
         headers: {
             'content-type': 'application/json'
         },
