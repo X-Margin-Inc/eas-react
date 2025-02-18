@@ -15,12 +15,12 @@ export const networkConfig = {
         network: "flowTestnet",
         easContractAddress: "0x201CB9CEe35cFe5Ac599ceFd1f84247c03b81A43",
         schemaRegistryContractAddress: "0x7354114050DF7cE7F062605B6632B742A9429Bdb",
-        graphqlUrl: "http://localhost:4000/graphql"
+        graphqlUrl: "https://eas-indexing-service.stage.credora.cloud/graphql"
     },
     "flowMainnet": {
         network: "flowMainnet",
         easContractAddress: "0xA1207F3BBa224E2c9c3c6D5aF63D0eb1582Ce587",
         schemaRegistryContractAddress: "0xA7b39296258348C78294F95B872b282326A97BDF",
-        graphqlUrl: "https://easscan.org/graphql"
+        graphqlUrl: "https://eas-indexing-service.prod.credora.cloud/graphql"
     }
 }
