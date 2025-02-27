@@ -19,8 +19,8 @@ export const networkConfig = {
     },
     "flowMainnet": {
         network: "flowMainnet",
-        easContractAddress: "0xA1207F3BBa224E2c9c3c6D5aF63D0eb1582Ce587",
-        schemaRegistryContractAddress: "0xA7b39296258348C78294F95B872b282326A97BDF",
+        easContractAddress: "0xB3a182BbEAe5e2a05fdA1dB9f2e29F78b02f2AbA",
+        schemaRegistryContractAddress: "0x7e0b40985D3C44F448EB8C2b89Aa54C99e6878c9",
         graphqlUrl: "https://flow.easscan.credora.io/api/graphql"
     }
 }
